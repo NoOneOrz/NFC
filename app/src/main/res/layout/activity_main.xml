@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_recharge.xml -->
+<!-- res/layout/activity_recharge.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/query_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询"/>
+
+    <TextView
+        android:id="@+id/balance_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前余额：¥ 请点击查询按钮"
+        android:textSize="20sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/amount_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="请输入充值金额"
+        android:textSize="16sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/recharge_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认充值"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
