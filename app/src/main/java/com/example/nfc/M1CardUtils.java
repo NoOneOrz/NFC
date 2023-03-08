@@ -20,7 +20,7 @@ import java.util.List;
  */
 public class M1CardUtils {
 
-    private static String KEY_A = "197224262691";
+    private static String KEY_A = "FFFFFFFFFFFF";
     private static String KEY_B = "FFFFFFFFFFFF";
 
     private static PendingIntent pendingIntent;
